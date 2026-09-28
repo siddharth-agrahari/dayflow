@@ -1,0 +1,2163 @@
+{
+  "organizations": [
+    {
+      "id": "org-dayflow-global",
+      "name": "Dayflow Technologies Inc.",
+      "slug": "dayflow",
+      "domain": "dayflow.com",
+      "currency": "USD",
+      "currencySymbol": "$",
+      "timezone": "America/Los_Angeles",
+      "address": "100 Innovation Way, Suite 400, San Francisco, CA 94105",
+      "logo": "https://api.dicebear.com/7.x/identicon/svg?seed=dayflow",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "departments": [
+    {
+      "id": "dept-eng",
+      "organizationId": "org-dayflow-global",
+      "name": "Engineering",
+      "code": "ENG",
+      "description": "Core product engineering, infrastructure and QA"
+    },
+    {
+      "id": "dept-des",
+      "organizationId": "org-dayflow-global",
+      "name": "Design & UX",
+      "code": "DES",
+      "description": "Product design, UI/UX systems and research"
+    },
+    {
+      "id": "dept-hr",
+      "organizationId": "org-dayflow-global",
+      "name": "Human Resources",
+      "code": "HR",
+      "description": "People operations, talent acquisition and culture"
+    },
+    {
+      "id": "dept-mkt",
+      "organizationId": "org-dayflow-global",
+      "name": "Marketing",
+      "code": "MKT",
+      "description": "Brand marketing, demand gen and communications"
+    },
+    {
+      "id": "dept-prd",
+      "organizationId": "org-dayflow-global",
+      "name": "Product",
+      "code": "PRD",
+      "description": "Product strategy, management and roadmaps"
+    },
+    {
+      "id": "dept-sal",
+      "organizationId": "org-dayflow-global",
+      "name": "Sales",
+      "code": "SAL",
+      "description": "Enterprise sales, partnerships and customer success"
+    }
+  ],
+  "designations": [
+    {
+      "id": "desig-1",
+      "organizationId": "org-dayflow-global",
+      "title": "Chief HR Officer & Admin",
+      "departmentId": "dept-hr",
+      "level": "Executive"
+    },
+    {
+      "id": "desig-2",
+      "organizationId": "org-dayflow-global",
+      "title": "VP of Engineering",
+      "departmentId": "dept-eng",
+      "level": "Executive"
+    },
+    {
+      "id": "desig-3",
+      "organizationId": "org-dayflow-global",
+      "title": "Lead Product Designer",
+      "departmentId": "dept-des",
+      "level": "Lead"
+    },
+    {
+      "id": "desig-4",
+      "organizationId": "org-dayflow-global",
+      "title": "Senior Full Stack Engineer",
+      "departmentId": "dept-eng",
+      "level": "Senior"
+    },
+    {
+      "id": "desig-5",
+      "organizationId": "org-dayflow-global",
+      "title": "Product Marketing Manager",
+      "departmentId": "dept-mkt",
+      "level": "Mid-Senior"
+    },
+    {
+      "id": "desig-6",
+      "organizationId": "org-dayflow-global",
+      "title": "DevOps & Cloud Architect",
+      "departmentId": "dept-eng",
+      "level": "Senior"
+    },
+    {
+      "id": "desig-7",
+      "organizationId": "org-dayflow-global",
+      "title": "HR Operations Specialist",
+      "departmentId": "dept-hr",
+      "level": "Mid"
+    },
+    {
+      "id": "desig-8",
+      "organizationId": "org-dayflow-global",
+      "title": "Backend Engineer",
+      "departmentId": "dept-eng",
+      "level": "Mid"
+    },
+    {
+      "id": "desig-9",
+      "organizationId": "org-dayflow-global",
+      "title": "Frontend Developer",
+      "departmentId": "dept-eng",
+      "level": "Mid"
+    },
+    {
+      "id": "desig-10",
+      "organizationId": "org-dayflow-global",
+      "title": "QA Automation Engineer",
+      "departmentId": "dept-eng",
+      "level": "Mid"
+    },
+    {
+      "id": "desig-11",
+      "organizationId": "org-dayflow-global",
+      "title": "Senior Product Manager",
+      "departmentId": "dept-prd",
+      "level": "Senior"
+    },
+    {
+      "id": "desig-12",
+      "organizationId": "org-dayflow-global",
+      "title": "Enterprise Account Executive",
+      "departmentId": "dept-sal",
+      "level": "Senior"
+    }
+  ],
+  "shifts": [
+    {
+      "id": "shift-morning",
+      "organizationId": "org-dayflow-global",
+      "name": "Standard Morning Shift",
+      "startTime": "09:00",
+      "endTime": "18:00",
+      "gracePeriodMins": 15,
+      "breakDurationMins": 60,
+      "isDefault": true
+    },
+    {
+      "id": "shift-flexible",
+      "organizationId": "org-dayflow-global",
+      "name": "Flexible Engineering Shift",
+      "startTime": "10:00",
+      "endTime": "19:00",
+      "gracePeriodMins": 30,
+      "breakDurationMins": 60,
+      "isDefault": false
+    },
+    {
+      "id": "shift-night",
+      "organizationId": "org-dayflow-global",
+      "name": "Global Support Night Shift",
+      "startTime": "22:00",
+      "endTime": "07:00",
+      "gracePeriodMins": 15,
+      "breakDurationMins": 60,
+      "isDefault": false
+    }
+  ],
+  "holidays": [
+    {
+      "id": "hol-1",
+      "organizationId": "org-dayflow-global",
+      "name": "New Year's Day",
+      "date": "2026-01-01",
+      "description": "National public holiday",
+      "isRestricted": false,
+      "year": 2026
+    },
+    {
+      "id": "hol-2",
+      "organizationId": "org-dayflow-global",
+      "name": "Memorial Day",
+      "date": "2026-05-25",
+      "description": "Federal holiday",
+      "isRestricted": false,
+      "year": 2026
+    },
+    {
+      "id": "hol-3",
+      "organizationId": "org-dayflow-global",
+      "name": "Independence Day",
+      "date": "2026-07-04",
+      "description": "4th of July Celebration",
+      "isRestricted": false,
+      "year": 2026
+    },
+    {
+      "id": "hol-4",
+      "organizationId": "org-dayflow-global",
+      "name": "Labor Day",
+      "date": "2026-09-07",
+      "description": "Labor Day observance",
+      "isRestricted": false,
+      "year": 2026
+    },
+    {
+      "id": "hol-5",
+      "organizationId": "org-dayflow-global",
+      "name": "Thanksgiving Day",
+      "date": "2026-11-26",
+      "description": "Thanksgiving holiday",
+      "isRestricted": false,
+      "year": 2026
+    },
+    {
+      "id": "hol-6",
+      "organizationId": "org-dayflow-global",
+      "name": "Christmas Day",
+      "date": "2026-12-25",
+      "description": "Christmas Day observance",
+      "isRestricted": false,
+      "year": 2026
+    }
+  ],
+  "users": [
+    {
+      "id": "usr-emp-1001",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1001",
+      "email": "admin@dayflow.com",
+      "passwordHash": "$2b$10$9hRSwG8M9.ahYDMV15Situ/d/IGQYrQn8RkG1u7tZPpPgVa08HsJ.",
+      "role": "super_admin",
+      "status": "Active",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr-emp-1002",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1002",
+      "email": "alex@dayflow.com",
+      "passwordHash": "$2b$10$9hRSwG8M9.ahYDMV15Situ/d/IGQYrQn8RkG1u7tZPpPgVa08HsJ.",
+      "role": "employee",
+      "status": "Active",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr-emp-1003",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1003",
+      "email": "marcus@dayflow.com",
+      "passwordHash": "$2b$10$9hRSwG8M9.ahYDMV15Situ/d/IGQYrQn8RkG1u7tZPpPgVa08HsJ.",
+      "role": "manager",
+      "status": "Active",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr-emp-1004",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1004",
+      "email": "sarah@dayflow.com",
+      "passwordHash": "$2b$10$9hRSwG8M9.ahYDMV15Situ/d/IGQYrQn8RkG1u7tZPpPgVa08HsJ.",
+      "role": "manager",
+      "status": "Active",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr-emp-1005",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1005",
+      "email": "sophia@dayflow.com",
+      "passwordHash": "$2b$10$9hRSwG8M9.ahYDMV15Situ/d/IGQYrQn8RkG1u7tZPpPgVa08HsJ.",
+      "role": "employee",
+      "status": "Active",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr-emp-1006",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1006",
+      "email": "devon@dayflow.com",
+      "passwordHash": "$2b$10$9hRSwG8M9.ahYDMV15Situ/d/IGQYrQn8RkG1u7tZPpPgVa08HsJ.",
+      "role": "employee",
+      "status": "Active",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr-emp-1007",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1007",
+      "email": "maya@dayflow.com",
+      "passwordHash": "$2b$10$9hRSwG8M9.ahYDMV15Situ/d/IGQYrQn8RkG1u7tZPpPgVa08HsJ.",
+      "role": "admin",
+      "status": "Active",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr-emp-1008",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1008",
+      "email": "liam@dayflow.com",
+      "passwordHash": "$2b$10$9hRSwG8M9.ahYDMV15Situ/d/IGQYrQn8RkG1u7tZPpPgVa08HsJ.",
+      "role": "employee",
+      "status": "Active",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr-emp-1009",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1009",
+      "email": "emma@dayflow.com",
+      "passwordHash": "$2b$10$9hRSwG8M9.ahYDMV15Situ/d/IGQYrQn8RkG1u7tZPpPgVa08HsJ.",
+      "role": "employee",
+      "status": "Active",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr-emp-1010",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1010",
+      "email": "noah@dayflow.com",
+      "passwordHash": "$2b$10$9hRSwG8M9.ahYDMV15Situ/d/IGQYrQn8RkG1u7tZPpPgVa08HsJ.",
+      "role": "employee",
+      "status": "Active",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr-emp-1011",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1011",
+      "email": "lucas@dayflow.com",
+      "passwordHash": "$2b$10$9hRSwG8M9.ahYDMV15Situ/d/IGQYrQn8RkG1u7tZPpPgVa08HsJ.",
+      "role": "employee",
+      "status": "Active",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "usr-emp-1012",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1012",
+      "email": "chloe@dayflow.com",
+      "passwordHash": "$2b$10$9hRSwG8M9.ahYDMV15Situ/d/IGQYrQn8RkG1u7tZPpPgVa08HsJ.",
+      "role": "employee",
+      "status": "Active",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "employees": [
+    {
+      "id": "EMP-1001",
+      "organizationId": "org-dayflow-global",
+      "userId": "usr-emp-1001",
+      "employeeId": "EMP-1001",
+      "name": "Eleanor Vance",
+      "email": "admin@dayflow.com",
+      "role": "super_admin",
+      "department": "Human Resources",
+      "designation": "Chief HR Officer & Admin",
+      "managerId": null,
+      "joiningDate": "2021-03-15",
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "personalDetails": {
+        "phone": "+1 (555) 234-5678",
+        "address": "742 Evergreen Terrace, San Francisco, CA",
+        "dob": "1992-05-18",
+        "gender": "Female",
+        "maritalStatus": "Single",
+        "emergencyContact": "Family Contact (+1 555-999-0000)",
+        "bloodGroup": "O+"
+      },
+      "jobDetails": {
+        "department": "Human Resources",
+        "designation": "Chief HR Officer & Admin",
+        "manager": "Board of Directors",
+        "workLocation": "San Francisco HQ",
+        "employmentType": "Full-time",
+        "workSchedule": "09:00 AM - 06:00 PM (Mon-Fri)",
+        "shiftId": "shift-morning"
+      },
+      "salaryStructure": {
+        "baseSalary": 9500,
+        "hra": 3200,
+        "specialAllowance": 1800,
+        "transportAllowance": 500,
+        "pfDeduction": 1140,
+        "taxDeduction": 1850,
+        "otherDeductions": 210,
+        "grossSalary": 15000,
+        "totalDeductions": 3200,
+        "netSalary": 11800,
+        "bankName": "Silicon Valley Bank",
+        "accountNumber": "**** **** 8821",
+        "ifscCode": "SVB000491",
+        "pan": "DAYFLOW1001X"
+      },
+      "onboardingCompleted": true,
+      "profileCompletion": 100,
+      "documents": [
+        {
+          "id": "doc-EMP-1001-1",
+          "title": "Employment Contract",
+          "category": "Contract",
+          "fileName": "contract.pdf",
+          "fileSize": "2.4 MB",
+          "uploadedAt": "2021-03-15"
+        }
+      ]
+    },
+    {
+      "id": "EMP-1002",
+      "organizationId": "org-dayflow-global",
+      "userId": "usr-emp-1002",
+      "employeeId": "EMP-1002",
+      "name": "Alex Rivera",
+      "email": "alex@dayflow.com",
+      "role": "employee",
+      "department": "Engineering",
+      "designation": "Senior Full Stack Engineer",
+      "managerId": "EMP-1004",
+      "joiningDate": "2022-01-10",
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "personalDetails": {
+        "phone": "+1 (555) 345-6789",
+        "address": "120 Market Street, Apt 4B, San Francisco, CA",
+        "dob": "1992-05-18",
+        "gender": "Male",
+        "maritalStatus": "Single",
+        "emergencyContact": "Family Contact (+1 555-999-0000)",
+        "bloodGroup": "O+"
+      },
+      "jobDetails": {
+        "department": "Engineering",
+        "designation": "Senior Full Stack Engineer",
+        "manager": "Sarah Jenkins",
+        "workLocation": "Remote (Global)",
+        "employmentType": "Full-time",
+        "workSchedule": "09:00 AM - 06:00 PM (Mon-Fri)",
+        "shiftId": "shift-morning"
+      },
+      "salaryStructure": {
+        "baseSalary": 8200,
+        "hra": 2800,
+        "specialAllowance": 1500,
+        "transportAllowance": 400,
+        "pfDeduction": 984,
+        "taxDeduction": 1450,
+        "otherDeductions": 166,
+        "grossSalary": 12900,
+        "totalDeductions": 2600,
+        "netSalary": 10300,
+        "bankName": "Chase Bank",
+        "accountNumber": "**** **** 4192",
+        "ifscCode": "SVB000491",
+        "pan": "DAYFLOW1002X"
+      },
+      "onboardingCompleted": true,
+      "profileCompletion": 100,
+      "documents": [
+        {
+          "id": "doc-EMP-1002-1",
+          "title": "Employment Contract",
+          "category": "Contract",
+          "fileName": "contract.pdf",
+          "fileSize": "2.4 MB",
+          "uploadedAt": "2022-01-10"
+        }
+      ]
+    },
+    {
+      "id": "EMP-1003",
+      "organizationId": "org-dayflow-global",
+      "userId": "usr-emp-1003",
+      "employeeId": "EMP-1003",
+      "name": "Marcus Chen",
+      "email": "marcus@dayflow.com",
+      "role": "manager",
+      "department": "Design & UX",
+      "designation": "Lead Product Designer",
+      "managerId": "EMP-1001",
+      "joiningDate": "2022-06-01",
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "personalDetails": {
+        "phone": "+1 (555) 456-7890",
+        "address": "88 King St, Seattle, WA",
+        "dob": "1992-05-18",
+        "gender": "Male",
+        "maritalStatus": "Single",
+        "emergencyContact": "Family Contact (+1 555-999-0000)",
+        "bloodGroup": "O+"
+      },
+      "jobDetails": {
+        "department": "Design & UX",
+        "designation": "Lead Product Designer",
+        "manager": "Eleanor Vance",
+        "workLocation": "San Francisco HQ",
+        "employmentType": "Full-time",
+        "workSchedule": "09:00 AM - 06:00 PM (Mon-Fri)",
+        "shiftId": "shift-morning"
+      },
+      "salaryStructure": {
+        "baseSalary": 7800,
+        "hra": 2600,
+        "specialAllowance": 1200,
+        "transportAllowance": 400,
+        "pfDeduction": 936,
+        "taxDeduction": 1320,
+        "otherDeductions": 144,
+        "grossSalary": 12000,
+        "totalDeductions": 2400,
+        "netSalary": 9600,
+        "bankName": "Bank of America",
+        "accountNumber": "**** **** 7234",
+        "ifscCode": "SVB000491",
+        "pan": "DAYFLOW1003X"
+      },
+      "onboardingCompleted": true,
+      "profileCompletion": 100,
+      "documents": [
+        {
+          "id": "doc-EMP-1003-1",
+          "title": "Employment Contract",
+          "category": "Contract",
+          "fileName": "contract.pdf",
+          "fileSize": "2.4 MB",
+          "uploadedAt": "2022-06-01"
+        }
+      ]
+    },
+    {
+      "id": "EMP-1004",
+      "organizationId": "org-dayflow-global",
+      "userId": "usr-emp-1004",
+      "employeeId": "EMP-1004",
+      "name": "Sarah Jenkins",
+      "email": "sarah@dayflow.com",
+      "role": "manager",
+      "department": "Engineering",
+      "designation": "VP of Engineering",
+      "managerId": "EMP-1001",
+      "joiningDate": "2021-08-15",
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+      "personalDetails": {
+        "phone": "+1 (555) 567-8901",
+        "address": "412 Valencia St, San Francisco, CA",
+        "dob": "1992-05-18",
+        "gender": "Male",
+        "maritalStatus": "Single",
+        "emergencyContact": "Family Contact (+1 555-999-0000)",
+        "bloodGroup": "O+"
+      },
+      "jobDetails": {
+        "department": "Engineering",
+        "designation": "VP of Engineering",
+        "manager": "Eleanor Vance",
+        "workLocation": "San Francisco HQ",
+        "employmentType": "Full-time",
+        "workSchedule": "09:00 AM - 06:00 PM (Mon-Fri)",
+        "shiftId": "shift-morning"
+      },
+      "salaryStructure": {
+        "baseSalary": 11000,
+        "hra": 3500,
+        "specialAllowance": 2200,
+        "transportAllowance": 500,
+        "pfDeduction": 1320,
+        "taxDeduction": 2100,
+        "otherDeductions": 280,
+        "grossSalary": 17200,
+        "totalDeductions": 3700,
+        "netSalary": 13500,
+        "bankName": "First Republic Bank",
+        "accountNumber": "**** **** 3391",
+        "ifscCode": "SVB000491",
+        "pan": "DAYFLOW1004X"
+      },
+      "onboardingCompleted": true,
+      "profileCompletion": 100,
+      "documents": [
+        {
+          "id": "doc-EMP-1004-1",
+          "title": "Employment Contract",
+          "category": "Contract",
+          "fileName": "contract.pdf",
+          "fileSize": "2.4 MB",
+          "uploadedAt": "2021-08-15"
+        }
+      ]
+    },
+    {
+      "id": "EMP-1005",
+      "organizationId": "org-dayflow-global",
+      "userId": "usr-emp-1005",
+      "employeeId": "EMP-1005",
+      "name": "Sophia Rodriguez",
+      "email": "sophia@dayflow.com",
+      "role": "employee",
+      "department": "Marketing",
+      "designation": "Product Marketing Manager",
+      "managerId": "EMP-1001",
+      "joiningDate": "2022-09-15",
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+      "personalDetails": {
+        "phone": "+1 (555) 678-9012",
+        "address": "500 Howard St, San Francisco, CA",
+        "dob": "1992-05-18",
+        "gender": "Female",
+        "maritalStatus": "Single",
+        "emergencyContact": "Family Contact (+1 555-999-0000)",
+        "bloodGroup": "O+"
+      },
+      "jobDetails": {
+        "department": "Marketing",
+        "designation": "Product Marketing Manager",
+        "manager": "Eleanor Vance",
+        "workLocation": "San Francisco HQ",
+        "employmentType": "Full-time",
+        "workSchedule": "09:00 AM - 06:00 PM (Mon-Fri)",
+        "shiftId": "shift-morning"
+      },
+      "salaryStructure": {
+        "baseSalary": 7200,
+        "hra": 2400,
+        "specialAllowance": 1100,
+        "transportAllowance": 350,
+        "pfDeduction": 864,
+        "taxDeduction": 1200,
+        "otherDeductions": 136,
+        "grossSalary": 11050,
+        "totalDeductions": 2200,
+        "netSalary": 8850,
+        "bankName": "Wells Fargo",
+        "accountNumber": "**** **** 9012",
+        "ifscCode": "SVB000491",
+        "pan": "DAYFLOW1005X"
+      },
+      "onboardingCompleted": true,
+      "profileCompletion": 100,
+      "documents": [
+        {
+          "id": "doc-EMP-1005-1",
+          "title": "Employment Contract",
+          "category": "Contract",
+          "fileName": "contract.pdf",
+          "fileSize": "2.4 MB",
+          "uploadedAt": "2022-09-15"
+        }
+      ]
+    },
+    {
+      "id": "EMP-1006",
+      "organizationId": "org-dayflow-global",
+      "userId": "usr-emp-1006",
+      "employeeId": "EMP-1006",
+      "name": "Devon Knight",
+      "email": "devon@dayflow.com",
+      "role": "employee",
+      "department": "Engineering",
+      "designation": "DevOps & Cloud Architect",
+      "managerId": "EMP-1004",
+      "joiningDate": "2023-02-01",
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "personalDetails": {
+        "phone": "+1 (555) 789-0123",
+        "address": "320 Austin Blvd, Austin, TX",
+        "dob": "1992-05-18",
+        "gender": "Male",
+        "maritalStatus": "Single",
+        "emergencyContact": "Family Contact (+1 555-999-0000)",
+        "bloodGroup": "O+"
+      },
+      "jobDetails": {
+        "department": "Engineering",
+        "designation": "DevOps & Cloud Architect",
+        "manager": "Sarah Jenkins",
+        "workLocation": "Remote (Global)",
+        "employmentType": "Full-time",
+        "workSchedule": "09:00 AM - 06:00 PM (Mon-Fri)",
+        "shiftId": "shift-morning"
+      },
+      "salaryStructure": {
+        "baseSalary": 8500,
+        "hra": 2800,
+        "specialAllowance": 1600,
+        "transportAllowance": 400,
+        "pfDeduction": 1020,
+        "taxDeduction": 1520,
+        "otherDeductions": 160,
+        "grossSalary": 13300,
+        "totalDeductions": 2700,
+        "netSalary": 10600,
+        "bankName": "Citibank",
+        "accountNumber": "**** **** 5561",
+        "ifscCode": "SVB000491",
+        "pan": "DAYFLOW1006X"
+      },
+      "onboardingCompleted": true,
+      "profileCompletion": 100,
+      "documents": [
+        {
+          "id": "doc-EMP-1006-1",
+          "title": "Employment Contract",
+          "category": "Contract",
+          "fileName": "contract.pdf",
+          "fileSize": "2.4 MB",
+          "uploadedAt": "2023-02-01"
+        }
+      ]
+    },
+    {
+      "id": "EMP-1007",
+      "organizationId": "org-dayflow-global",
+      "userId": "usr-emp-1007",
+      "employeeId": "EMP-1007",
+      "name": "Maya Patel",
+      "email": "maya@dayflow.com",
+      "role": "admin",
+      "department": "Human Resources",
+      "designation": "HR Operations Specialist",
+      "managerId": "EMP-1001",
+      "joiningDate": "2023-04-10",
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+      "personalDetails": {
+        "phone": "+1 (555) 890-1234",
+        "address": "210 Mission St, San Francisco, CA",
+        "dob": "1992-05-18",
+        "gender": "Female",
+        "maritalStatus": "Single",
+        "emergencyContact": "Family Contact (+1 555-999-0000)",
+        "bloodGroup": "O+"
+      },
+      "jobDetails": {
+        "department": "Human Resources",
+        "designation": "HR Operations Specialist",
+        "manager": "Eleanor Vance",
+        "workLocation": "San Francisco HQ",
+        "employmentType": "Full-time",
+        "workSchedule": "09:00 AM - 06:00 PM (Mon-Fri)",
+        "shiftId": "shift-morning"
+      },
+      "salaryStructure": {
+        "baseSalary": 6800,
+        "hra": 2200,
+        "specialAllowance": 1000,
+        "transportAllowance": 300,
+        "pfDeduction": 816,
+        "taxDeduction": 1100,
+        "otherDeductions": 134,
+        "grossSalary": 10300,
+        "totalDeductions": 2050,
+        "netSalary": 8250,
+        "bankName": "Silicon Valley Bank",
+        "accountNumber": "**** **** 6781",
+        "ifscCode": "SVB000491",
+        "pan": "DAYFLOW1007X"
+      },
+      "onboardingCompleted": true,
+      "profileCompletion": 100,
+      "documents": [
+        {
+          "id": "doc-EMP-1007-1",
+          "title": "Employment Contract",
+          "category": "Contract",
+          "fileName": "contract.pdf",
+          "fileSize": "2.4 MB",
+          "uploadedAt": "2023-04-10"
+        }
+      ]
+    },
+    {
+      "id": "EMP-1008",
+      "organizationId": "org-dayflow-global",
+      "userId": "usr-emp-1008",
+      "employeeId": "EMP-1008",
+      "name": "Liam O'Connor",
+      "email": "liam@dayflow.com",
+      "role": "employee",
+      "department": "Engineering",
+      "designation": "Backend Engineer",
+      "managerId": "EMP-1004",
+      "joiningDate": "2023-07-01",
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=150&auto=format&fit=crop&q=80",
+      "personalDetails": {
+        "phone": "+1 (555) 901-2345",
+        "address": "15 Beacon St, Boston, MA",
+        "dob": "1992-05-18",
+        "gender": "Male",
+        "maritalStatus": "Single",
+        "emergencyContact": "Family Contact (+1 555-999-0000)",
+        "bloodGroup": "O+"
+      },
+      "jobDetails": {
+        "department": "Engineering",
+        "designation": "Backend Engineer",
+        "manager": "Sarah Jenkins",
+        "workLocation": "San Francisco HQ",
+        "employmentType": "Full-time",
+        "workSchedule": "09:00 AM - 06:00 PM (Mon-Fri)",
+        "shiftId": "shift-morning"
+      },
+      "salaryStructure": {
+        "baseSalary": 7400,
+        "hra": 2500,
+        "specialAllowance": 1200,
+        "transportAllowance": 350,
+        "pfDeduction": 888,
+        "taxDeduction": 1280,
+        "otherDeductions": 132,
+        "grossSalary": 11450,
+        "totalDeductions": 2300,
+        "netSalary": 9150,
+        "bankName": "Chase Bank",
+        "accountNumber": "**** **** 8119",
+        "ifscCode": "SVB000491",
+        "pan": "DAYFLOW1008X"
+      },
+      "onboardingCompleted": true,
+      "profileCompletion": 100,
+      "documents": [
+        {
+          "id": "doc-EMP-1008-1",
+          "title": "Employment Contract",
+          "category": "Contract",
+          "fileName": "contract.pdf",
+          "fileSize": "2.4 MB",
+          "uploadedAt": "2023-07-01"
+        }
+      ]
+    },
+    {
+      "id": "EMP-1009",
+      "organizationId": "org-dayflow-global",
+      "userId": "usr-emp-1009",
+      "employeeId": "EMP-1009",
+      "name": "Emma Watson",
+      "email": "emma@dayflow.com",
+      "role": "employee",
+      "department": "Engineering",
+      "designation": "Frontend Developer",
+      "managerId": "EMP-1004",
+      "joiningDate": "2023-09-01",
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=150&auto=format&fit=crop&q=80",
+      "personalDetails": {
+        "phone": "+1 (555) 012-3456",
+        "address": "900 Broadway, New York, NY",
+        "dob": "1992-05-18",
+        "gender": "Female",
+        "maritalStatus": "Single",
+        "emergencyContact": "Family Contact (+1 555-999-0000)",
+        "bloodGroup": "O+"
+      },
+      "jobDetails": {
+        "department": "Engineering",
+        "designation": "Frontend Developer",
+        "manager": "Sarah Jenkins",
+        "workLocation": "San Francisco HQ",
+        "employmentType": "Full-time",
+        "workSchedule": "09:00 AM - 06:00 PM (Mon-Fri)",
+        "shiftId": "shift-morning"
+      },
+      "salaryStructure": {
+        "baseSalary": 7100,
+        "hra": 2400,
+        "specialAllowance": 1100,
+        "transportAllowance": 350,
+        "pfDeduction": 852,
+        "taxDeduction": 1200,
+        "otherDeductions": 148,
+        "grossSalary": 10950,
+        "totalDeductions": 2200,
+        "netSalary": 8750,
+        "bankName": "TD Bank",
+        "accountNumber": "**** **** 2091",
+        "ifscCode": "SVB000491",
+        "pan": "DAYFLOW1009X"
+      },
+      "onboardingCompleted": true,
+      "profileCompletion": 100,
+      "documents": [
+        {
+          "id": "doc-EMP-1009-1",
+          "title": "Employment Contract",
+          "category": "Contract",
+          "fileName": "contract.pdf",
+          "fileSize": "2.4 MB",
+          "uploadedAt": "2023-09-01"
+        }
+      ]
+    },
+    {
+      "id": "EMP-1010",
+      "organizationId": "org-dayflow-global",
+      "userId": "usr-emp-1010",
+      "employeeId": "EMP-1010",
+      "name": "Noah Kim",
+      "email": "noah@dayflow.com",
+      "role": "employee",
+      "department": "Engineering",
+      "designation": "QA Automation Engineer",
+      "managerId": "EMP-1004",
+      "joiningDate": "2023-11-15",
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80",
+      "personalDetails": {
+        "phone": "+1 (555) 123-4567",
+        "address": "710 Pine St, San Francisco, CA",
+        "dob": "1992-05-18",
+        "gender": "Male",
+        "maritalStatus": "Single",
+        "emergencyContact": "Family Contact (+1 555-999-0000)",
+        "bloodGroup": "O+"
+      },
+      "jobDetails": {
+        "department": "Engineering",
+        "designation": "QA Automation Engineer",
+        "manager": "Sarah Jenkins",
+        "workLocation": "San Francisco HQ",
+        "employmentType": "Full-time",
+        "workSchedule": "09:00 AM - 06:00 PM (Mon-Fri)",
+        "shiftId": "shift-morning"
+      },
+      "salaryStructure": {
+        "baseSalary": 6700,
+        "hra": 2200,
+        "specialAllowance": 1000,
+        "transportAllowance": 300,
+        "pfDeduction": 804,
+        "taxDeduction": 1120,
+        "otherDeductions": 126,
+        "grossSalary": 10200,
+        "totalDeductions": 2050,
+        "netSalary": 8150,
+        "bankName": "Bank of America",
+        "accountNumber": "**** **** 9441",
+        "ifscCode": "SVB000491",
+        "pan": "DAYFLOW1010X"
+      },
+      "onboardingCompleted": true,
+      "profileCompletion": 100,
+      "documents": [
+        {
+          "id": "doc-EMP-1010-1",
+          "title": "Employment Contract",
+          "category": "Contract",
+          "fileName": "contract.pdf",
+          "fileSize": "2.4 MB",
+          "uploadedAt": "2023-11-15"
+        }
+      ]
+    },
+    {
+      "id": "EMP-1011",
+      "organizationId": "org-dayflow-global",
+      "userId": "usr-emp-1011",
+      "employeeId": "EMP-1011",
+      "name": "Lucas Silva",
+      "email": "lucas@dayflow.com",
+      "role": "employee",
+      "department": "Product",
+      "designation": "Senior Product Manager",
+      "managerId": "EMP-1001",
+      "joiningDate": "2022-03-01",
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&q=80",
+      "personalDetails": {
+        "phone": "+1 (555) 234-5670",
+        "address": "1020 Folsom St, San Francisco, CA",
+        "dob": "1992-05-18",
+        "gender": "Male",
+        "maritalStatus": "Single",
+        "emergencyContact": "Family Contact (+1 555-999-0000)",
+        "bloodGroup": "O+"
+      },
+      "jobDetails": {
+        "department": "Product",
+        "designation": "Senior Product Manager",
+        "manager": "Eleanor Vance",
+        "workLocation": "San Francisco HQ",
+        "employmentType": "Full-time",
+        "workSchedule": "09:00 AM - 06:00 PM (Mon-Fri)",
+        "shiftId": "shift-morning"
+      },
+      "salaryStructure": {
+        "baseSalary": 8600,
+        "hra": 2900,
+        "specialAllowance": 1600,
+        "transportAllowance": 400,
+        "pfDeduction": 1032,
+        "taxDeduction": 1550,
+        "otherDeductions": 168,
+        "grossSalary": 13500,
+        "totalDeductions": 2750,
+        "netSalary": 10750,
+        "bankName": "Capital One",
+        "accountNumber": "**** **** 1290",
+        "ifscCode": "SVB000491",
+        "pan": "DAYFLOW1011X"
+      },
+      "onboardingCompleted": true,
+      "profileCompletion": 100,
+      "documents": [
+        {
+          "id": "doc-EMP-1011-1",
+          "title": "Employment Contract",
+          "category": "Contract",
+          "fileName": "contract.pdf",
+          "fileSize": "2.4 MB",
+          "uploadedAt": "2022-03-01"
+        }
+      ]
+    },
+    {
+      "id": "EMP-1012",
+      "organizationId": "org-dayflow-global",
+      "userId": "usr-emp-1012",
+      "employeeId": "EMP-1012",
+      "name": "Chloe Bennett",
+      "email": "chloe@dayflow.com",
+      "role": "employee",
+      "department": "Sales",
+      "designation": "Enterprise Account Executive",
+      "managerId": "EMP-1001",
+      "joiningDate": "2022-08-01",
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1534751516642-a171edd2521d?w=150&auto=format&fit=crop&q=80",
+      "personalDetails": {
+        "phone": "+1 (555) 345-6780",
+        "address": "540 Michigan Ave, Chicago, IL",
+        "dob": "1992-05-18",
+        "gender": "Female",
+        "maritalStatus": "Single",
+        "emergencyContact": "Family Contact (+1 555-999-0000)",
+        "bloodGroup": "O+"
+      },
+      "jobDetails": {
+        "department": "Sales",
+        "designation": "Enterprise Account Executive",
+        "manager": "Eleanor Vance",
+        "workLocation": "San Francisco HQ",
+        "employmentType": "Full-time",
+        "workSchedule": "09:00 AM - 06:00 PM (Mon-Fri)",
+        "shiftId": "shift-morning"
+      },
+      "salaryStructure": {
+        "baseSalary": 7900,
+        "hra": 2600,
+        "specialAllowance": 1300,
+        "transportAllowance": 400,
+        "pfDeduction": 948,
+        "taxDeduction": 1380,
+        "otherDeductions": 152,
+        "grossSalary": 12200,
+        "totalDeductions": 2480,
+        "netSalary": 9720,
+        "bankName": "Chase Bank",
+        "accountNumber": "**** **** 7712",
+        "ifscCode": "SVB000491",
+        "pan": "DAYFLOW1012X"
+      },
+      "onboardingCompleted": true,
+      "profileCompletion": 100,
+      "documents": [
+        {
+          "id": "doc-EMP-1012-1",
+          "title": "Employment Contract",
+          "category": "Contract",
+          "fileName": "contract.pdf",
+          "fileSize": "2.4 MB",
+          "uploadedAt": "2022-08-01"
+        }
+      ]
+    }
+  ],
+  "leave_balances": [
+    {
+      "id": "lb-EMP-1001",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1001",
+      "year": 2026,
+      "paid": {
+        "total": 18,
+        "used": 2,
+        "remaining": 16
+      },
+      "sick": {
+        "total": 12,
+        "used": 1,
+        "remaining": 11
+      },
+      "casual": {
+        "total": 8,
+        "used": 1,
+        "remaining": 7
+      },
+      "unpaid": {
+        "total": 5,
+        "used": 0,
+        "remaining": 5
+      }
+    },
+    {
+      "id": "lb-EMP-1002",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1002",
+      "year": 2026,
+      "paid": {
+        "total": 18,
+        "used": 4,
+        "remaining": 14
+      },
+      "sick": {
+        "total": 12,
+        "used": 3,
+        "remaining": 9
+      },
+      "casual": {
+        "total": 8,
+        "used": 1,
+        "remaining": 7
+      },
+      "unpaid": {
+        "total": 5,
+        "used": 0,
+        "remaining": 5
+      }
+    },
+    {
+      "id": "lb-EMP-1003",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1003",
+      "year": 2026,
+      "paid": {
+        "total": 18,
+        "used": 2,
+        "remaining": 16
+      },
+      "sick": {
+        "total": 12,
+        "used": 1,
+        "remaining": 11
+      },
+      "casual": {
+        "total": 8,
+        "used": 1,
+        "remaining": 7
+      },
+      "unpaid": {
+        "total": 5,
+        "used": 0,
+        "remaining": 5
+      }
+    },
+    {
+      "id": "lb-EMP-1004",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1004",
+      "year": 2026,
+      "paid": {
+        "total": 18,
+        "used": 2,
+        "remaining": 16
+      },
+      "sick": {
+        "total": 12,
+        "used": 1,
+        "remaining": 11
+      },
+      "casual": {
+        "total": 8,
+        "used": 1,
+        "remaining": 7
+      },
+      "unpaid": {
+        "total": 5,
+        "used": 0,
+        "remaining": 5
+      }
+    },
+    {
+      "id": "lb-EMP-1005",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1005",
+      "year": 2026,
+      "paid": {
+        "total": 18,
+        "used": 2,
+        "remaining": 16
+      },
+      "sick": {
+        "total": 12,
+        "used": 1,
+        "remaining": 11
+      },
+      "casual": {
+        "total": 8,
+        "used": 1,
+        "remaining": 7
+      },
+      "unpaid": {
+        "total": 5,
+        "used": 0,
+        "remaining": 5
+      }
+    },
+    {
+      "id": "lb-EMP-1006",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1006",
+      "year": 2026,
+      "paid": {
+        "total": 18,
+        "used": 2,
+        "remaining": 16
+      },
+      "sick": {
+        "total": 12,
+        "used": 1,
+        "remaining": 11
+      },
+      "casual": {
+        "total": 8,
+        "used": 1,
+        "remaining": 7
+      },
+      "unpaid": {
+        "total": 5,
+        "used": 0,
+        "remaining": 5
+      }
+    },
+    {
+      "id": "lb-EMP-1007",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1007",
+      "year": 2026,
+      "paid": {
+        "total": 18,
+        "used": 2,
+        "remaining": 16
+      },
+      "sick": {
+        "total": 12,
+        "used": 1,
+        "remaining": 11
+      },
+      "casual": {
+        "total": 8,
+        "used": 1,
+        "remaining": 7
+      },
+      "unpaid": {
+        "total": 5,
+        "used": 0,
+        "remaining": 5
+      }
+    },
+    {
+      "id": "lb-EMP-1008",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1008",
+      "year": 2026,
+      "paid": {
+        "total": 18,
+        "used": 2,
+        "remaining": 16
+      },
+      "sick": {
+        "total": 12,
+        "used": 1,
+        "remaining": 11
+      },
+      "casual": {
+        "total": 8,
+        "used": 1,
+        "remaining": 7
+      },
+      "unpaid": {
+        "total": 5,
+        "used": 0,
+        "remaining": 5
+      }
+    },
+    {
+      "id": "lb-EMP-1009",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1009",
+      "year": 2026,
+      "paid": {
+        "total": 18,
+        "used": 2,
+        "remaining": 16
+      },
+      "sick": {
+        "total": 12,
+        "used": 1,
+        "remaining": 11
+      },
+      "casual": {
+        "total": 8,
+        "used": 1,
+        "remaining": 7
+      },
+      "unpaid": {
+        "total": 5,
+        "used": 0,
+        "remaining": 5
+      }
+    },
+    {
+      "id": "lb-EMP-1010",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1010",
+      "year": 2026,
+      "paid": {
+        "total": 18,
+        "used": 2,
+        "remaining": 16
+      },
+      "sick": {
+        "total": 12,
+        "used": 1,
+        "remaining": 11
+      },
+      "casual": {
+        "total": 8,
+        "used": 1,
+        "remaining": 7
+      },
+      "unpaid": {
+        "total": 5,
+        "used": 0,
+        "remaining": 5
+      }
+    },
+    {
+      "id": "lb-EMP-1011",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1011",
+      "year": 2026,
+      "paid": {
+        "total": 18,
+        "used": 2,
+        "remaining": 16
+      },
+      "sick": {
+        "total": 12,
+        "used": 1,
+        "remaining": 11
+      },
+      "casual": {
+        "total": 8,
+        "used": 1,
+        "remaining": 7
+      },
+      "unpaid": {
+        "total": 5,
+        "used": 0,
+        "remaining": 5
+      }
+    },
+    {
+      "id": "lb-EMP-1012",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1012",
+      "year": 2026,
+      "paid": {
+        "total": 18,
+        "used": 2,
+        "remaining": 16
+      },
+      "sick": {
+        "total": 12,
+        "used": 1,
+        "remaining": 11
+      },
+      "casual": {
+        "total": 8,
+        "used": 1,
+        "remaining": 7
+      },
+      "unpaid": {
+        "total": 5,
+        "used": 0,
+        "remaining": 5
+      }
+    }
+  ],
+  "attendance": [
+    {
+      "id": "ATT-20260912-1001",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1001",
+      "employeeName": "Eleanor Vance",
+      "department": "Human Resources",
+      "date": "2026-09-12",
+      "checkIn": "08:50 AM",
+      "checkOut": null,
+      "workHours": "In Progress",
+      "workedMinutes": 240,
+      "overtimeMinutes": 0,
+      "status": "Present",
+      "workMode": "Office"
+    },
+    {
+      "id": "ATT-20260912-1002",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1002",
+      "employeeName": "Alex Rivera",
+      "department": "Engineering",
+      "date": "2026-09-12",
+      "checkIn": "09:05 AM",
+      "checkOut": null,
+      "workHours": "In Progress",
+      "workedMinutes": 225,
+      "overtimeMinutes": 0,
+      "status": "Present",
+      "workMode": "Remote"
+    },
+    {
+      "id": "ATT-20260912-1003",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1003",
+      "employeeName": "Marcus Chen",
+      "department": "Design & UX",
+      "date": "2026-09-12",
+      "checkIn": "09:12 AM",
+      "checkOut": null,
+      "workHours": "In Progress",
+      "workedMinutes": 218,
+      "overtimeMinutes": 0,
+      "status": "Present",
+      "workMode": "Office"
+    },
+    {
+      "id": "ATT-20260912-1004",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1004",
+      "employeeName": "Sarah Jenkins",
+      "department": "Engineering",
+      "date": "2026-09-12",
+      "checkIn": "08:45 AM",
+      "checkOut": null,
+      "workHours": "In Progress",
+      "workedMinutes": 245,
+      "overtimeMinutes": 0,
+      "status": "Present",
+      "workMode": "Office"
+    },
+    {
+      "id": "ATT-20260912-1005",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1005",
+      "employeeName": "Sophia Rodriguez",
+      "department": "Marketing",
+      "date": "2026-09-12",
+      "checkIn": "-",
+      "checkOut": "-",
+      "workHours": "0h 0m",
+      "workedMinutes": 0,
+      "overtimeMinutes": 0,
+      "status": "Leave",
+      "workMode": "On Leave"
+    },
+    {
+      "id": "ATT-20260912-1006",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1006",
+      "employeeName": "Devon Knight",
+      "department": "Engineering",
+      "date": "2026-09-12",
+      "checkIn": "09:40 AM",
+      "checkOut": null,
+      "workHours": "In Progress",
+      "workedMinutes": 190,
+      "overtimeMinutes": 0,
+      "status": "Late",
+      "workMode": "Remote"
+    },
+    {
+      "id": "ATT-20260911-1002",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1002",
+      "employeeName": "Alex Rivera",
+      "department": "Engineering",
+      "date": "2026-09-11",
+      "checkIn": "09:00 AM",
+      "checkOut": "06:10 PM",
+      "workHours": "9h 10m",
+      "workedMinutes": 550,
+      "overtimeMinutes": 10,
+      "status": "Present",
+      "workMode": "Office"
+    },
+    {
+      "id": "ATT-20260910-1002",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1002",
+      "employeeName": "Alex Rivera",
+      "department": "Engineering",
+      "date": "2026-09-10",
+      "checkIn": "09:15 AM",
+      "checkOut": "06:00 PM",
+      "workHours": "8h 45m",
+      "workedMinutes": 525,
+      "overtimeMinutes": 0,
+      "status": "Present",
+      "workMode": "Remote"
+    },
+    {
+      "id": "ATT-20260909-1002",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1002",
+      "employeeName": "Alex Rivera",
+      "department": "Engineering",
+      "date": "2026-09-09",
+      "checkIn": "08:55 AM",
+      "checkOut": "06:20 PM",
+      "workHours": "9h 25m",
+      "workedMinutes": 565,
+      "overtimeMinutes": 25,
+      "status": "Present",
+      "workMode": "Office"
+    },
+    {
+      "id": "ATT-20260908-1002",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1002",
+      "employeeName": "Alex Rivera",
+      "department": "Engineering",
+      "date": "2026-09-08",
+      "checkIn": "09:30 AM",
+      "checkOut": "01:45 PM",
+      "workHours": "4h 15m",
+      "workedMinutes": 255,
+      "overtimeMinutes": 0,
+      "status": "Half-day",
+      "workMode": "Office"
+    }
+  ],
+  "attendance_corrections": [
+    {
+      "id": "cor-1",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1006",
+      "employeeName": "Devon Knight",
+      "attendanceId": "ATT-20260910-1006",
+      "date": "2026-09-10",
+      "requestedCheckIn": "09:00 AM",
+      "requestedCheckOut": "06:00 PM",
+      "reason": "Network disconnect during evening remote checkout",
+      "status": "Pending",
+      "adminNotes": "",
+      "createdAt": "2026-09-12T09:53:11.347Z"
+    }
+  ],
+  "leaves": [
+    {
+      "id": "LR-101",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1002",
+      "employeeName": "Alex Rivera",
+      "employeeAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "department": "Engineering",
+      "leaveType": "Paid",
+      "fromDate": "2026-09-21",
+      "toDate": "2026-09-23",
+      "days": 3,
+      "isHalfDay": false,
+      "reason": "Attending annual full-stack engineering conference and tech summit",
+      "status": "Pending",
+      "adminComment": "",
+      "appliedOn": "2026-09-12"
+    },
+    {
+      "id": "LR-102",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1005",
+      "employeeName": "Sophia Rodriguez",
+      "employeeAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+      "department": "Marketing",
+      "leaveType": "Casual",
+      "fromDate": "2026-09-12",
+      "toDate": "2026-09-12",
+      "days": 1,
+      "isHalfDay": false,
+      "reason": "Personal family appointment",
+      "status": "Approved",
+      "adminComment": "Approved by HR Director Vance",
+      "appliedOn": "2026-09-10"
+    },
+    {
+      "id": "LR-103",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1006",
+      "employeeName": "Devon Knight",
+      "employeeAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "department": "Engineering",
+      "leaveType": "Sick",
+      "fromDate": "2026-09-05",
+      "toDate": "2026-09-06",
+      "days": 2,
+      "isHalfDay": false,
+      "reason": "Severe seasonal flu with doctor medical certificate",
+      "status": "Approved",
+      "adminComment": "Medical certificate verified",
+      "appliedOn": "2026-09-04"
+    },
+    {
+      "id": "LR-104",
+      "organizationId": "org-dayflow-global",
+      "employeeId": "EMP-1008",
+      "employeeName": "Liam O'Connor",
+      "employeeAvatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=150&auto=format&fit=crop&q=80",
+      "department": "Engineering",
+      "leaveType": "Paid",
+      "fromDate": "2026-08-28",
+      "toDate": "2026-08-31",
+      "days": 4,
+      "isHalfDay": false,
+      "reason": "Family trip",
+      "status": "Rejected",
+      "adminComment": "Overlaps with critical Q3 production release freeze",
+      "appliedOn": "2026-08-25"
+    }
+  ],
+  "payroll_runs": [
+    {
+      "id": "pr-2026-08",
+      "organizationId": "org-dayflow-global",
+      "month": "August 2026",
+      "year": 2026,
+      "totalEmployees": 12,
+      "totalGross": 121500,
+      "totalDeductions": 28400,
+      "totalNet": 93100,
+      "status": "Published",
+      "generatedAt": "2026-08-25T10:00:00.000Z",
+      "lockedAt": "2026-08-28T14:00:00.000Z",
+      "publishedAt": "2026-08-31T09:00:00.000Z"
+    },
+    {
+      "id": "pr-2026-09",
+      "organizationId": "org-dayflow-global",
+      "month": "September 2026",
+      "year": 2026,
+      "totalEmployees": 12,
+      "totalGross": 121500,
+      "totalDeductions": 28400,
+      "totalNet": 93100,
+      "status": "Draft",
+      "generatedAt": "2026-09-10T11:00:00.000Z",
+      "lockedAt": null,
+      "publishedAt": null
+    }
+  ],
+  "payslips": [
+    {
+      "id": "ps-202608-EMP-1001",
+      "organizationId": "org-dayflow-global",
+      "payrollRunId": "pr-2026-08",
+      "employeeId": "EMP-1001",
+      "employeeName": "Eleanor Vance",
+      "department": "Human Resources",
+      "designation": "Chief HR Officer & Admin",
+      "month": "August 2026",
+      "year": 2026,
+      "baseSalary": 9500,
+      "hra": 3200,
+      "specialAllowance": 1800,
+      "transportAllowance": 500,
+      "bonus": 0,
+      "otherEarnings": 0,
+      "grossSalary": 15000,
+      "totalDeductions": 3200,
+      "pfDeduction": 1140,
+      "taxDeduction": 1850,
+      "otherDeductions": 210,
+      "lossOfPay": 0,
+      "netSalary": 11800,
+      "bankName": "Silicon Valley Bank",
+      "accountNumber": "**** **** 8821",
+      "ifscCode": "SVB000491",
+      "pan": "DAYFLOW1001X",
+      "status": "Disbursed",
+      "generatedAt": "2026-08-25T10:00:00.000Z"
+    },
+    {
+      "id": "ps-202608-EMP-1002",
+      "organizationId": "org-dayflow-global",
+      "payrollRunId": "pr-2026-08",
+      "employeeId": "EMP-1002",
+      "employeeName": "Alex Rivera",
+      "department": "Engineering",
+      "designation": "Senior Full Stack Engineer",
+      "month": "August 2026",
+      "year": 2026,
+      "baseSalary": 8200,
+      "hra": 2800,
+      "specialAllowance": 1500,
+      "transportAllowance": 400,
+      "bonus": 0,
+      "otherEarnings": 0,
+      "grossSalary": 12900,
+      "totalDeductions": 2600,
+      "pfDeduction": 984,
+      "taxDeduction": 1450,
+      "otherDeductions": 166,
+      "lossOfPay": 0,
+      "netSalary": 10300,
+      "bankName": "Chase Bank",
+      "accountNumber": "**** **** 4192",
+      "ifscCode": "SVB000491",
+      "pan": "DAYFLOW1002X",
+      "status": "Disbursed",
+      "generatedAt": "2026-08-25T10:00:00.000Z"
+    },
+    {
+      "id": "ps-202608-EMP-1003",
+      "organizationId": "org-dayflow-global",
+      "payrollRunId": "pr-2026-08",
+      "employeeId": "EMP-1003",
+      "employeeName": "Marcus Chen",
+      "department": "Design & UX",
+      "designation": "Lead Product Designer",
+      "month": "August 2026",
+      "year": 2026,
+      "baseSalary": 7800,
+      "hra": 2600,
+      "specialAllowance": 1200,
+      "transportAllowance": 400,
+      "bonus": 0,
+      "otherEarnings": 0,
+      "grossSalary": 12000,
+      "totalDeductions": 2400,
+      "pfDeduction": 936,
+      "taxDeduction": 1320,
+      "otherDeductions": 144,
+      "lossOfPay": 0,
+      "netSalary": 9600,
+      "bankName": "Bank of America",
+      "accountNumber": "**** **** 7234",
+      "ifscCode": "SVB000491",
+      "pan": "DAYFLOW1003X",
+      "status": "Disbursed",
+      "generatedAt": "2026-08-25T10:00:00.000Z"
+    },
+    {
+      "id": "ps-202608-EMP-1004",
+      "organizationId": "org-dayflow-global",
+      "payrollRunId": "pr-2026-08",
+      "employeeId": "EMP-1004",
+      "employeeName": "Sarah Jenkins",
+      "department": "Engineering",
+      "designation": "VP of Engineering",
+      "month": "August 2026",
+      "year": 2026,
+      "baseSalary": 11000,
+      "hra": 3500,
+      "specialAllowance": 2200,
+      "transportAllowance": 500,
+      "bonus": 0,
+      "otherEarnings": 0,
+      "grossSalary": 17200,
+      "totalDeductions": 3700,
+      "pfDeduction": 1320,
+      "taxDeduction": 2100,
+      "otherDeductions": 280,
+      "lossOfPay": 0,
+      "netSalary": 13500,
+      "bankName": "First Republic Bank",
+      "accountNumber": "**** **** 3391",
+      "ifscCode": "SVB000491",
+      "pan": "DAYFLOW1004X",
+      "status": "Disbursed",
+      "generatedAt": "2026-08-25T10:00:00.000Z"
+    },
+    {
+      "id": "ps-202608-EMP-1005",
+      "organizationId": "org-dayflow-global",
+      "payrollRunId": "pr-2026-08",
+      "employeeId": "EMP-1005",
+      "employeeName": "Sophia Rodriguez",
+      "department": "Marketing",
+      "designation": "Product Marketing Manager",
+      "month": "August 2026",
+      "year": 2026,
+      "baseSalary": 7200,
+      "hra": 2400,
+      "specialAllowance": 1100,
+      "transportAllowance": 350,
+      "bonus": 0,
+      "otherEarnings": 0,
+      "grossSalary": 11050,
+      "totalDeductions": 2200,
+      "pfDeduction": 864,
+      "taxDeduction": 1200,
+      "otherDeductions": 136,
+      "lossOfPay": 0,
+      "netSalary": 8850,
+      "bankName": "Wells Fargo",
+      "accountNumber": "**** **** 9012",
+      "ifscCode": "SVB000491",
+      "pan": "DAYFLOW1005X",
+      "status": "Disbursed",
+      "generatedAt": "2026-08-25T10:00:00.000Z"
+    },
+    {
+      "id": "ps-202608-EMP-1006",
+      "organizationId": "org-dayflow-global",
+      "payrollRunId": "pr-2026-08",
+      "employeeId": "EMP-1006",
+      "employeeName": "Devon Knight",
+      "department": "Engineering",
+      "designation": "DevOps & Cloud Architect",
+      "month": "August 2026",
+      "year": 2026,
+      "baseSalary": 8500,
+      "hra": 2800,
+      "specialAllowance": 1600,
+      "transportAllowance": 400,
+      "bonus": 0,
+      "otherEarnings": 0,
+      "grossSalary": 13300,
+      "totalDeductions": 2700,
+      "pfDeduction": 1020,
+      "taxDeduction": 1520,
+      "otherDeductions": 160,
+      "lossOfPay": 0,
+      "netSalary": 10600,
+      "bankName": "Citibank",
+      "accountNumber": "**** **** 5561",
+      "ifscCode": "SVB000491",
+      "pan": "DAYFLOW1006X",
+      "status": "Disbursed",
+      "generatedAt": "2026-08-25T10:00:00.000Z"
+    },
+    {
+      "id": "ps-202608-EMP-1007",
+      "organizationId": "org-dayflow-global",
+      "payrollRunId": "pr-2026-08",
+      "employeeId": "EMP-1007",
+      "employeeName": "Maya Patel",
+      "department": "Human Resources",
+      "designation": "HR Operations Specialist",
+      "month": "August 2026",
+      "year": 2026,
+      "baseSalary": 6800,
+      "hra": 2200,
+      "specialAllowance": 1000,
+      "transportAllowance": 300,
+      "bonus": 0,
+      "otherEarnings": 0,
+      "grossSalary": 10300,
+      "totalDeductions": 2050,
+      "pfDeduction": 816,
+      "taxDeduction": 1100,
+      "otherDeductions": 134,
+      "lossOfPay": 0,
+      "netSalary": 8250,
+      "bankName": "Silicon Valley Bank",
+      "accountNumber": "**** **** 6781",
+      "ifscCode": "SVB000491",
+      "pan": "DAYFLOW1007X",
+      "status": "Disbursed",
+      "generatedAt": "2026-08-25T10:00:00.000Z"
+    },
+    {
+      "id": "ps-202608-EMP-1008",
+      "organizationId": "org-dayflow-global",
+      "payrollRunId": "pr-2026-08",
+      "employeeId": "EMP-1008",
+      "employeeName": "Liam O'Connor",
+      "department": "Engineering",
+      "designation": "Backend Engineer",
+      "month": "August 2026",
+      "year": 2026,
+      "baseSalary": 7400,
+      "hra": 2500,
+      "specialAllowance": 1200,
+      "transportAllowance": 350,
+      "bonus": 0,
+      "otherEarnings": 0,
+      "grossSalary": 11450,
+      "totalDeductions": 2300,
+      "pfDeduction": 888,
+      "taxDeduction": 1280,
+      "otherDeductions": 132,
+      "lossOfPay": 0,
+      "netSalary": 9150,
+      "bankName": "Chase Bank",
+      "accountNumber": "**** **** 8119",
+      "ifscCode": "SVB000491",
+      "pan": "DAYFLOW1008X",
+      "status": "Disbursed",
+      "generatedAt": "2026-08-25T10:00:00.000Z"
+    },
+    {
+      "id": "ps-202608-EMP-1009",
+      "organizationId": "org-dayflow-global",
+      "payrollRunId": "pr-2026-08",
+      "employeeId": "EMP-1009",
+      "employeeName": "Emma Watson",
+      "department": "Engineering",
+      "designation": "Frontend Developer",
+      "month": "August 2026",
+      "year": 2026,
+      "baseSalary": 7100,
+      "hra": 2400,
+      "specialAllowance": 1100,
+      "transportAllowance": 350,
+      "bonus": 0,
+      "otherEarnings": 0,
+      "grossSalary": 10950,
+      "totalDeductions": 2200,
+      "pfDeduction": 852,
+      "taxDeduction": 1200,
+      "otherDeductions": 148,
+      "lossOfPay": 0,
+      "netSalary": 8750,
+      "bankName": "TD Bank",
+      "accountNumber": "**** **** 2091",
+      "ifscCode": "SVB000491",
+      "pan": "DAYFLOW1009X",
+      "status": "Disbursed",
+      "generatedAt": "2026-08-25T10:00:00.000Z"
+    },
+    {
+      "id": "ps-202608-EMP-1010",
+      "organizationId": "org-dayflow-global",
+      "payrollRunId": "pr-2026-08",
+      "employeeId": "EMP-1010",
+      "employeeName": "Noah Kim",
+      "department": "Engineering",
+      "designation": "QA Automation Engineer",
+      "month": "August 2026",
+      "year": 2026,
+      "baseSalary": 6700,
+      "hra": 2200,
+      "specialAllowance": 1000,
+      "transportAllowance": 300,
+      "bonus": 0,
+      "otherEarnings": 0,
+      "grossSalary": 10200,
+      "totalDeductions": 2050,
+      "pfDeduction": 804,
+      "taxDeduction": 1120,
+      "otherDeductions": 126,
+      "lossOfPay": 0,
+      "netSalary": 8150,
+      "bankName": "Bank of America",
+      "accountNumber": "**** **** 9441",
+      "ifscCode": "SVB000491",
+      "pan": "DAYFLOW1010X",
+      "status": "Disbursed",
+      "generatedAt": "2026-08-25T10:00:00.000Z"
+    },
+    {
+      "id": "ps-202608-EMP-1011",
+      "organizationId": "org-dayflow-global",
+      "payrollRunId": "pr-2026-08",
+      "employeeId": "EMP-1011",
+      "employeeName": "Lucas Silva",
+      "department": "Product",
+      "designation": "Senior Product Manager",
+      "month": "August 2026",
+      "year": 2026,
+      "baseSalary": 8600,
+      "hra": 2900,
+      "specialAllowance": 1600,
+      "transportAllowance": 400,
+      "bonus": 0,
+      "otherEarnings": 0,
+      "grossSalary": 13500,
+      "totalDeductions": 2750,
+      "pfDeduction": 1032,
+      "taxDeduction": 1550,
+      "otherDeductions": 168,
+      "lossOfPay": 0,
+      "netSalary": 10750,
+      "bankName": "Capital One",
+      "accountNumber": "**** **** 1290",
+      "ifscCode": "SVB000491",
+      "pan": "DAYFLOW1011X",
+      "status": "Disbursed",
+      "generatedAt": "2026-08-25T10:00:00.000Z"
+    },
+    {
+      "id": "ps-202608-EMP-1012",
+      "organizationId": "org-dayflow-global",
+      "payrollRunId": "pr-2026-08",
+      "employeeId": "EMP-1012",
+      "employeeName": "Chloe Bennett",
+      "department": "Sales",
+      "designation": "Enterprise Account Executive",
+      "month": "August 2026",
+      "year": 2026,
+      "baseSalary": 7900,
+      "hra": 2600,
+      "specialAllowance": 1300,
+      "transportAllowance": 400,
+      "bonus": 0,
+      "otherEarnings": 0,
+      "grossSalary": 12200,
+      "totalDeductions": 2480,
+      "pfDeduction": 948,
+      "taxDeduction": 1380,
+      "otherDeductions": 152,
+      "lossOfPay": 0,
+      "netSalary": 9720,
+      "bankName": "Chase Bank",
+      "accountNumber": "**** **** 7712",
+      "ifscCode": "SVB000491",
+      "pan": "DAYFLOW1012X",
+      "status": "Disbursed",
+      "generatedAt": "2026-08-25T10:00:00.000Z"
+    }
+  ],
+  "documents": [],
+  "announcements": [
+    {
+      "id": "ann-1",
+      "organizationId": "org-dayflow-global",
+      "title": "🎉 Dayflow Q3 All-Hands & Product Roadmap Presentation",
+      "content": "Join us this Friday at 4:00 PM PST for the company town hall celebrating our new HRMS 2.0 rollout and Q3 strategic achievements.",
+      "date": "2026-09-12",
+      "publishDate": "2026-09-12",
+      "expiryDate": "2026-10-01",
+      "priority": "High",
+      "category": "Company Event",
+      "author": "Eleanor Vance (CHRO)"
+    },
+    {
+      "id": "ann-2",
+      "organizationId": "org-dayflow-global",
+      "title": "🌴 Upcoming Labor Day Public Holiday Office Closure",
+      "content": "The office will remain closed on Monday, September 7th for Labor Day. Paid time off is automatically applied for all team members.",
+      "date": "2026-09-10",
+      "publishDate": "2026-09-10",
+      "expiryDate": "2026-09-10",
+      "priority": "Normal",
+      "category": "Holiday",
+      "author": "HR Operations"
+    },
+    {
+      "id": "ann-3",
+      "organizationId": "org-dayflow-global",
+      "title": "🔒 Annual SOC2 Security Compliance Refresher Due",
+      "content": "Please ensure you have completed the annual security training modules before month end in compliance with our enterprise audit standards.",
+      "date": "2026-09-07",
+      "publishDate": "2026-09-07",
+      "expiryDate": "2026-09-30",
+      "priority": "Urgent",
+      "category": "Compliance",
+      "author": "IT Security"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "organizationId": "org-dayflow-global",
+      "userId": "usr-emp-1001",
+      "employeeId": "EMP-1001",
+      "type": "leave",
+      "title": "New Leave Application",
+      "message": "Alex Rivera applied for 3 days of Paid Leave (Sep 21 - Sep 23).",
+      "link": "/leave-approvals",
+      "read": false,
+      "createdAt": "10 mins ago"
+    },
+    {
+      "id": "notif-2",
+      "organizationId": "org-dayflow-global",
+      "userId": "usr-emp-1001",
+      "employeeId": "EMP-1001",
+      "type": "attendance",
+      "title": "Attendance Correction Request",
+      "message": "Devon Knight requested an attendance regularization for checkout time.",
+      "link": "/attendance",
+      "read": false,
+      "createdAt": "2 hours ago"
+    },
+    {
+      "id": "notif-3",
+      "organizationId": "org-dayflow-global",
+      "userId": "usr-emp-1002",
+      "employeeId": "EMP-1002",
+      "type": "payroll",
+      "title": "August Payslip Disbursed",
+      "message": "Your August 2026 payslip is ready for viewing and download.",
+      "link": "/payroll",
+      "read": true,
+      "createdAt": "Yesterday"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "aud-1",
+      "organizationId": "org-dayflow-global",
+      "actorId": "EMP-1001",
+      "actorName": "Eleanor Vance",
+      "actorRole": "super_admin",
+      "action": "PAYROLL_PUBLISHED",
+      "entity": "PayrollRun",
+      "entityId": "pr-2026-08",
+      "metadata": {
+        "month": "August 2026",
+        "totalEmployees": 12,
+        "totalNet": 93100
+      },
+      "ipAddress": "192.168.1.10",
+      "timestamp": "2026-08-31T09:00:00.000Z"
+    },
+    {
+      "id": "aud-2",
+      "organizationId": "org-dayflow-global",
+      "actorId": "EMP-1001",
+      "actorName": "Eleanor Vance",
+      "actorRole": "super_admin",
+      "action": "LEAVE_APPROVED",
+      "entity": "LeaveRequest",
+      "entityId": "LR-102",
+      "metadata": {
+        "employee": "Sophia Rodriguez",
+        "days": 1,
+        "leaveType": "Casual"
+      },
+      "ipAddress": "192.168.1.10",
+      "timestamp": "2026-09-10"
+    },
+    {
+      "id": "aud-3",
+      "organizationId": "org-dayflow-global",
+      "actorId": "EMP-1001",
+      "actorName": "Eleanor Vance",
+      "actorRole": "super_admin",
+      "action": "EMPLOYEE_CREATED",
+      "entity": "Employee",
+      "entityId": "EMP-1012",
+      "metadata": {
+        "employeeName": "Chloe Bennett",
+        "designation": "Enterprise Account Executive"
+      },
+      "ipAddress": "192.168.1.10",
+      "timestamp": "2024-08-01T10:00:00.000Z"
+    }
+  ]
+}
